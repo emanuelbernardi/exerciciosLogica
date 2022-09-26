@@ -1,8 +1,9 @@
 <?php
 
-/*4.3.9 Iniciais - Escreva um programa que lê um nome de pessoa e identifica suas iniciais, segundo o seguinte critério: uma inicial é o primeiro caractere ou o caractere que segue um espaço. */
-
-
+/*4.3.9 Iniciais - 
+Escreva um programa que lê um nome de 
+pessoa e identifica suas iniciais, segundo o seguinte critério: 
+  uma inicial é o primeiro caractere ou o caractere que segue um espaço. */
 
 $nome = readline('coloque o seu nome: ');
 
