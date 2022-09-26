@@ -3,9 +3,9 @@
 
 $palavra = readline('coloque o uma palavra: ');
 
-$troca = readline('coloque o um caracter: ');
+$caracter = readline('coloque o um caracter: ');
 
 
-$x = str_replace(' ' ,$troca, $palavra);
+$x = str_replace(' ' ,$caracter, $palavra);
 
 echo $x;
