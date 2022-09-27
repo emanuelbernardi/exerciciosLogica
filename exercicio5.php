@@ -20,21 +20,8 @@ EOL;
 
 $alternativa = readline('A alternativa correta é: ');
 
-switch($alternativa)
-{
-  case 1:
-    echo "Errou"."\n";
-    break;
-  case 2:
-    echo "Errou"."\n";
-    break;
-  case 3:
-    echo "Errou"."\n";
-    break;
-  case 4:
-    echo "Acertou"."\n";
-    break;
-  case 5:
-    echo "Errou"."\n";
-    break;        
+if ($alternativa == 4) {
+  echo "Acertou";
+} else {
+  echo "Errou";
 }
