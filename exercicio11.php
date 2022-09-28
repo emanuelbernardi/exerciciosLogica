@@ -18,8 +18,8 @@ do {
 
   $caracter = '*';
   $quantidade = '';
-  for ($y = 0; $y < $linha; $y++) {
-    for($x = 0; $x < $quantidade; $x++) {
+  for ($y = 1; $y <= $linha; $y++) {
+    for($x = 1; $x < $quantidade; $x++) {
       echo $caracter;
     }
     echo "\n";
