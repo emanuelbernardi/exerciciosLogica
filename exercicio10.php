@@ -22,6 +22,5 @@ $quantidade = (int)readline('Quantas linhas: ');
   }
   $quantidade = (int)readline('digite novamente: ');
 
-
 }
 
