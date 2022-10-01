@@ -15,22 +15,13 @@
 
 do {
   $linha = (int)readline("Digite a quantidade de linhas: ");
-
   $caracter = '*';
-
   $quantidade = 0;
-
   for ($y = 0; $y <= $linha; $y++) {
-
     for($x = 1; $x <= $quantidade; $x++) {
-
       echo $caracter;
-    
     }
-    
     $quantidade = $x + $y;
-
     echo "\n";
-    
   }
 } while ($linha != 0);
