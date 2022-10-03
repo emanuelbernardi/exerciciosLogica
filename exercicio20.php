@@ -1,2 +1,2 @@
 <?php
-/*Meu execicio autoral */
+/* Execicio autoral */
