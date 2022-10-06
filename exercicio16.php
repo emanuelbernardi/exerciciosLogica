@@ -11,21 +11,23 @@ senha estiverem incorretos. São permitidas até 3 tentativas.  */
   'Patrick' => '8776698'
  ];
  $content = TRUE;
-  for($i = 0; $i < 3 && $content == TRUE; ){
+ $i = 0;
+  do{
     $Nome = readline('escreva o nome do usuario: ');
-    
     $senha = readline('escreva sua senha: '); 
-    if (preg_match('/[^0-8A-Za-z]/',$senha)) {
+
+    if (strlen($senha) >= 4 && strlen($senha) <= 8) {
       echo 'Deve ser uma senha de entre 4 e 8 digitos'."\n";
     }
-    $i++;
 
     if(array_search($senha, $usuarios) && array_key_exists($Nome, $usuarios)) {
       echo 'usuario logado';
       $content = FALSE;
     } else {
-      echo "Usuario não existe tente novamente"."\n"; 
+      echo "Usuario ou senha Invalidos"."\n"; 
     }
-  
 
-  }
+    $i++;
+  }while($i < 3 && $content == TRUE);
+
+  
