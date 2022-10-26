@@ -40,6 +40,4 @@ do {
     }
     $pare = readline('se quiser parar digite n: ')."\n";
 
-
 }while($pare !== 'n');
-
