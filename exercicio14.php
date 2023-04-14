@@ -1,5 +1,5 @@
 <?php
-
+/*
 $i = 0; 
 $vetor = [];
 do{
@@ -23,3 +23,49 @@ if($ordenar == '1') {
     echo "$key = $val \n";
   }
 }
+*/
+
+  $y = 0; 
+  $vetor = [];
+do{
+  $numeros = readline('coloque até 20 numeros: ');
+  $novamente = readline('Quer continuar s/n: ');
+  $vetor[$y] = $numeros;
+  
+  $y++;
+} while($novamente != 'n' &&  $y < 20);
+
+$decisao = readline('crescente || decrescente: ');
+$x = [];
+
+if($decisao == 'crescente'){
+    foreach($vetor as $i ) {
+        if($vetor[$i] > $vetor[$i + 1]) {
+          
+        }
+
+      }
+      
+    } elseif($decisao == 'decrescente') {
+      
+    foreach($vetor as $i ) {
+      if($i > $i + 1) {
+        $x = [$i];
+        
+      }
+    }
+    
+  }
+  print_r($vetor);
+
+
+
+  /*
+  $decisao = readline('escreva se que em ordem : crescente || decrescente');
+if($decisao == 'crescente'){
+
+  
+  } elseif($decisao == 'decrescente') {
+
+  }
+  */

@@ -6,7 +6,7 @@ verifica se as barras estão nas posições corretas, se o dia está entre 1 e 3
  */
 
 
-
+/*
 $data = readline("escreva uma data para ser validada: ");
 
 
@@ -24,83 +24,16 @@ $x = explode('/',$data);
      
 
 
+*/
 
 
+$a = readline();
 
+$b = explode(" ", $a);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//$a = readline();
-
-
-//$b = explode(" ", $a);
-
-//
-//echo "TRIANGULO: ".number_format(($b[0]*$b[2])/2, 3,".", " ")."\n";
-//echo "CIRCULO: ".number_format((3.14159*($b[2]*$b[2])), 3,".", " ")."\n";
-//echo "TRAPEZIO: ".number_format(((($b[0]+$b[1])*$b[2])/2), 3,".", " ")."\n";
-//echo "QUADRADO: ".number_format(($b[1]*$b[1]), 3,".", " ")."\n";
-//echo "RETANGULO: ".number_format(($b[0]*$b[1]), 3,".", " ")."\n";
+echo "TRIANGULO: ".number_format(($b[0]*$b[2])/2, 3,".", " ")."\n";
+echo "CIRCULO: ".number_format((3.14159*($b[2]*$b[2])), 3,".", " ")."\n";
+echo "TRAPEZIO: ".number_format(((($b[0]+$b[1])*$b[2])/2), 3,".", " ")."\n";
+echo "QUADRADO: ".number_format(($b[1]*$b[1]), 3,".", " ")."\n";
+echo "RETANGULO: ".number_format(($b[0]*$b[1]), 3,".", " ")."\n";

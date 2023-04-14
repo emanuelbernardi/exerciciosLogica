@@ -9,3 +9,10 @@ foreach ($array as $value) {
        echo $value."\n";
     }
 }
+
+
+if($var1 = $var2){
+
+    
+
+}
